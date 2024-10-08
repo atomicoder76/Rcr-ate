@@ -1,0 +1,82 @@
+.navbar {
+    display: flex;
+    background-color: rgba(9, 105, 122, 0.692);
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.heading {
+    display: inline-block;
+    color: white;
+}
+
+* {
+    margin: 0%;
+    padding:0%;
+    box-sizing: content-box;
+}
+
+a {
+    
+    text-decoration: none;
+    color: white;
+    margin: 2px;
+    margin-right: 3px;
+}
+a:hover {
+    opacity: 0.5;
+}
+
+.intro {
+    color: rgb(53, 51, 48);
+    text-align: center;
+}
+.container {
+    display: flex;
+ justify-content: center;
+}
+.homebutton {
+    width: 100px;
+    height: 30px;
+    background-color: rgba(9, 105, 122, 0.692);
+    color: white;
+    border-color: black;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.homebutton:hover {
+   font-size: 14px; 
+   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+    transform: translateY(-2px); /* Lift the button slightly */
+}
+
+.homebutton:active {
+     /* Even darker green when pressed */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Reduced shadow */
+    transform: translateY(0); /* Reset lift */
+}
+
+.updatechoice a{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    border: 1px solid;
+    background-color:  white;
+
+}
+.updatechoice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.updatechoice a.active {
+    opacity: 0.3;
+}
+
+
